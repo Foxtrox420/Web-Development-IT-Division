@@ -13,9 +13,17 @@ body {
     border-radius: 30px;
     text-decoration: none;
     color: white;
-    border: 1px solid #38abab;
     padding: 12px 34px;
     font-size: 13; 
+}
+
+.loginbutton a:hover{
+    background-color:  #2f9191;
+}
+
+.loginbutton:hover{
+    background-color: #2f9191;
+    border: none;
 }
 
 .header{
@@ -135,8 +143,8 @@ nav img{
     transform: translate(0%, 150%);
 }
 
+
 .footer{
-    flex: 1; 
     position: fixed; 
     bottom: 0px; 
     text-align: center;
@@ -147,15 +155,7 @@ nav img{
     width: 1920px; 
     height: 70px; 
     padding-top: 20px;
-
-}
-
-.socials ul{
-    min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-    color: black; 
-    font-size: 30px;
+    box-shadow: 3px 3px 21px #525252;
 }
 
 .socials li{
