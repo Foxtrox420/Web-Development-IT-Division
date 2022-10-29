@@ -13,11 +13,19 @@ body {
     border-radius: 30px;
     text-decoration: none;
     color: white;
-    border: 1px solid #38abab;
-    background-color: #38abab;
     padding: 12px 34px;
     font-size: 13; 
 }
+
+.loginbutton a:hover{
+    background-color:  #2f9191;
+}
+
+.loginbutton:hover{
+    background-color: #2f9191;
+    border: none;
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -31,7 +39,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color:white;
-    box-shadow: 3px 3px 21px #525252;
+    /* box-shadow: 3px 3px 21px #525252; */
 }
 
 nav img{
@@ -162,7 +170,7 @@ nav img{
     width: 1920px; 
     height: 70px; 
     padding-top: 20px;
-    box-shadow: 3px 3px 21px #525252;
+    /* box-shadow: 3px 3px 21px #525252; */
 
 }
 
