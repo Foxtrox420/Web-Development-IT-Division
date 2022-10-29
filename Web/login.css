@@ -13,9 +13,17 @@ body {
     border-radius: 30px;
     text-decoration: none;
     color: white;
-    border: 1px solid #38abab;
     padding: 12px 34px;
     font-size: 13; 
+}
+
+.loginbutton a:hover{
+    background-color:  #2f9191;
+}
+
+.loginbutton:hover{
+    background-color: #2f9191;
+    border: none;
 }
 
 .header{
